@@ -1,0 +1,5 @@
+Bundle-Name: liferay-headless-apps-test
+Bundle-SymbolicName: liferay.headless.apps.test
+Bundle-Version: 1.0.0
+-includeresource: liferay.headless.apps.client.jar=../liferay-headless-apps-client/build/libs/liferay.headless.apps.client-1.0.0.jar;lib:=true
+-provider-policy: ${replacestring;${range;[==,==]};.*,(.*)];$1}

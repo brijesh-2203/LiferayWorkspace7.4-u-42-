@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE routes PUBLIC "-//Liferay//DTD Friendly URL Routes 7.2.0//EN" "http://www.liferay.com/dtd/liferay-friendly-url-routes_7_2_0.dtd">
+
+<routes>
+    <route>
+        <pattern></pattern>
+        <implicit-parameter name="mvcRenderCommandName">/blogs/view</implicit-parameter>
+        <implicit-parameter name="p_p_lifecycle">0</implicit-parameter>
+        <implicit-parameter name="p_p_state">normal</implicit-parameter>
+    </route>
+    <route>
+        <pattern>/maximized</pattern>
+        <implicit-parameter name="mvcRenderCommandName">/blogs/view</implicit-parameter>
+        <implicit-parameter name="p_p_lifecycle">0</implicit-parameter>
+        <implicit-parameter name="p_p_state">maximized</implicit-parameter>
+    </route>
+    <route>
+        <pattern>/{entryId:\d+}</pattern>
+        <implicit-parameter name="categoryId"></implicit-parameter>
+        <implicit-parameter name="mvcRenderCommandName">/blogs/view_entry</implicit-parameter>
+        <implicit-parameter name="p_p_lifecycle">0</implicit-parameter>
+        <implicit-parameter name="p_p_state">normal</implicit-parameter>
+        <implicit-parameter name="tag"></implicit-parameter>
+    </route>
+
+    <route>
+        <pattern>/{urlTitle}</pattern>
+        <implicit-parameter name="categoryId"></implicit-parameter>
+        <implicit-parameter name="mvcRenderCommandName">/blogs/view_entry</implicit-parameter>
+        <implicit-parameter name="p_p_lifecycle">0</implicit-parameter>
+        <implicit-parameter name="p_p_state">normal</implicit-parameter>
+        <implicit-parameter name="tag"></implicit-parameter>
+    </route>
+</routes>

@@ -1,0 +1,10 @@
+Bundle-Name: UserApp-api
+Bundle-SymbolicName: userapp.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	userapp.exception,\
+	userapp.model,\
+	userapp.service,\
+	userapp.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../UserApp-service/service.xml

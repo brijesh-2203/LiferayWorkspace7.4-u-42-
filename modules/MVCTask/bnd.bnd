@@ -1,0 +1,4 @@
+Bundle-Name: MVCTask
+Bundle-SymbolicName: com.task.demo
+Bundle-Version: 1.0.0
+Export-Package: com.task.demo.constants

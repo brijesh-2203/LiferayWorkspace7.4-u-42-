@@ -1,0 +1,4 @@
+Bundle-Name: DemoApiModule
+Bundle-SymbolicName: demoapimodule
+Bundle-Version: 1.0.0
+Export-Package: demoapimodule.api

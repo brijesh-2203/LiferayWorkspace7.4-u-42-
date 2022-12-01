@@ -1,0 +1,11 @@
+dependencies {
+	compile project(":modules:UserOneMany:UserOneMany-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+}
+
+buildService {
+	apiDir = "../UserOneMany-api/src/main/java"
+}
+
+group = "com.liferay.user"

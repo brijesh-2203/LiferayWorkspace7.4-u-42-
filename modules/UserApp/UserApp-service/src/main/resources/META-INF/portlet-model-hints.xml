@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="userapp.model.UserApp">
+		<field name="uuid" type="String" />
+		<field name="appId" type="String" />
+		<field name="description" type="String" />
+		<field name="link" type="String" />
+		<field name="logoUrl" type="String" />
+		<field name="name" type="String" />
+	</model>
+</model-hints>

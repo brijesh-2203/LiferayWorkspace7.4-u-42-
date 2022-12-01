@@ -1,0 +1,3 @@
+Bundle-Name: liferay-headless-apps-client
+Bundle-SymbolicName: liferay.headless.apps.client
+Bundle-Version: 1.0.0

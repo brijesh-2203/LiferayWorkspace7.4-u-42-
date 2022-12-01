@@ -1,0 +1,4 @@
+Bundle-Name: BlogMvcContent
+Bundle-SymbolicName: blogmvccontent
+Bundle-Version: 1.0.0
+Export-Package: blogmvccontent.constants

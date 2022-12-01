@@ -1,0 +1,6 @@
+Bundle-Name: OverrideMvcBolg
+Bundle-SymbolicName: custom.code.web
+Bundle-Version: 1.0.0
+Export-Package: overridemvcbolg.constants
+Web-ContextPath: /custom-code-web
+

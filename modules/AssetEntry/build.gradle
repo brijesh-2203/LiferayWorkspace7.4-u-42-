@@ -1,0 +1,8 @@
+dependencies {
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+
+	cssBuilder group: "com.liferay", name: "com.liferay.css.builder", version: "3.1.0"
+	// https://mvnrepository.com/artifact/com.liferay/com.liferay.portal.search.web
+	implementation group: 'com.liferay', name: 'com.liferay.portal.search.web', version: '1.0.4'
+
+}

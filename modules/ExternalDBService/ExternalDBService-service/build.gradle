@@ -1,0 +1,13 @@
+dependencies {
+	compile project(":modules:ExternalDBService:ExternalDBService-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+
+	compileOnly group: "com.liferay", name: "com.liferay.portal.spring.extender.api", version: "4.0.0"
+}
+
+buildService {
+	apiDir = "../ExternalDBService-api/src/main/java"
+}
+
+group = "externaldbservice"

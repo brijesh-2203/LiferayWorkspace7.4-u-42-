@@ -1,0 +1,10 @@
+Bundle-Name: UserOneMany-api
+Bundle-SymbolicName: com.liferay.user.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.liferay.user.exception,\
+	com.liferay.user.model,\
+	com.liferay.user.service,\
+	com.liferay.user.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../UserOneMany-service/service.xml

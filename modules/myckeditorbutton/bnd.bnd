@@ -1,0 +1,5 @@
+Bundle-Name: myckeditorbutton
+Bundle-SymbolicName: myckeditorbutton
+Bundle-Version: 1.0.0
+Export-Package: myckeditorbutton.constants
+Fragment-Host: frontend.editor.ckeditor.web;bundle-version="1.0.0"

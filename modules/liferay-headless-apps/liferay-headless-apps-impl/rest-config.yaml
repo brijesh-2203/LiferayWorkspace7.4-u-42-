@@ -1,0 +1,9 @@
+apiDir: "../liferay-headless-apps-api/src/main/java"
+apiPackagePath: "liferay.headless.apps"
+application:
+    baseURI: "/liferay-headless-apps"
+    className: "LiferayHeadlessAppsApplication"
+    name: "LiferayHeadlessApps"
+author: "root322"
+clientDir: "../liferay-headless-apps-client/src/main/java"
+testDir: "../liferay-headless-apps-test/src/testIntegration/java"

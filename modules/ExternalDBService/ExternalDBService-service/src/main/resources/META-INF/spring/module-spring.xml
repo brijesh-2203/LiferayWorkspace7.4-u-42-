@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<beans
+	default-destroy-method="destroy"
+	default-init-method="afterPropertiesSet"
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+>
+	<bean class="externaldbservice.service.impl.ExternalDBTestLocalServiceImpl" id="externaldbservice.service.ExternalDBTestLocalService" />
+	<bean class="externaldbservice.service.impl.ExternalDBTestServiceImpl" id="externaldbservice.service.ExternalDBTestService" />
+	<bean class="externaldbservice.service.persistence.impl.ExternalDBTestModelArgumentsResolver" id="externaldbservice.service.persistence.impl.ExternalDBTestModelArgumentsResolver" />
+	<bean class="externaldbservice.service.persistence.impl.ExternalDBTestPersistenceImpl" id="externaldbservice.service.persistence.ExternalDBTestPersistence">
+		<property name="dataSource" ref="secondDatabase" />
+	</bean>
+	<bean class="org.springframework.jdbc.datasource.LazyConnectionDataSourceProxy" id="liferayDataSource">
+		<property name="targetDataSource" ref="liferayDataSourceFactory" />
+	</bean>
+	<alias alias="secondDatabase" name="liferayDataSource" />
+</beans>

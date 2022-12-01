@@ -1,0 +1,4 @@
+Bundle-Name: FriendlyUrl
+Bundle-SymbolicName: friendlyurl
+Bundle-Version: 1.0.0
+Export-Package: friendlyurl.constants

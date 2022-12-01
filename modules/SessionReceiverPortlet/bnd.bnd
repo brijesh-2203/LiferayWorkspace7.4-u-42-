@@ -1,0 +1,4 @@
+Bundle-Name: SessionReceiverPortlet
+Bundle-SymbolicName: com.sessionreceiver.demo
+Bundle-Version: 1.0.0
+Export-Package: com.session.demo.constants

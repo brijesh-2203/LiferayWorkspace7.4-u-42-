@@ -1,0 +1,3 @@
+Bundle-Name: example-dynamic-include-blogs
+Bundle-SymbolicName: example.dynamic.include.blogs
+Bundle-Version: 1.0.0

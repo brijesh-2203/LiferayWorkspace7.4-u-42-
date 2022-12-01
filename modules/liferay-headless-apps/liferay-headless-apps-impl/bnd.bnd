@@ -1,0 +1,3 @@
+Bundle-Name: liferay-headless-apps-impl
+Bundle-SymbolicName: liferay.headless.apps.impl
+Bundle-Version: 1.0.0

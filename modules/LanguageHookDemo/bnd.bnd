@@ -1,0 +1,4 @@
+Bundle-Name: LanguageHookDemo
+Bundle-SymbolicName: org.javasavvy.hook.content.language
+Bundle-Version: 1.0.0
+Export-Package: LanguageHookDemo.constants

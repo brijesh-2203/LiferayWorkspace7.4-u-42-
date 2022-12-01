@@ -1,0 +1,4 @@
+Bundle-Name: searchProducts
+Bundle-SymbolicName: com.liferay.searchProducts
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.searchProducts.constants

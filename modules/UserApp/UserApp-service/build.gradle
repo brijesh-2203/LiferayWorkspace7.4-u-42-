@@ -1,0 +1,11 @@
+dependencies {
+	compile project(":modules:UserApp:UserApp-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+}
+
+buildService {
+	apiDir = "../UserApp-api/src/main/java"
+}
+
+group = "userapp"
