@@ -1,0 +1,6 @@
+Bundle-Name: Liferay Site Initializer Brijesh
+Bundle-SymbolicName: com.liferay.site.initializer.brijesh
+Bundle-Version: 1.0.4
+Liferay-Site-Initializer-Name: Brijesh
+Provide-Capability: liferay.site.initializer
+Web-ContextPath: /site-initializer-brijesh
